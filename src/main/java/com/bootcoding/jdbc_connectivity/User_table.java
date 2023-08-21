@@ -29,13 +29,10 @@ public class User_table{
                 String mail = rs.getString("email");
                 String address = rs.getString("address");
 
-
                 System.out.println("Id = " + userId);
                 System.out.println("Name = " + name);
                 System.out.println("Mail = " + mail);
                 System.out.println("Address = " + address);
-
-
             }
 
             //5. Connection Close;
